@@ -121,7 +121,7 @@ app.post('/', function (req, res) {
 	
 console.log("body"+req.body); 
 console.log("host"+req.host);
-res.send(req.body);
+//res.send(req.body);   用了两次这个方法导致出错
 var type=JSON.parse(req.body.type);
 
 //var result_type=JSON.stringify(req.body.type);
