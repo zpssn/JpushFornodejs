@@ -10,7 +10,7 @@ var users = require('./routes/users');
 
 var app = express();
 var JPush = require("./node_modules/jpush-sdk/lib/JPush/JPush.js");
-var client = JPush.buildClient('52da0b984250c4c465c85983', 'ab154afc579faef4e0c6c3c4',5);
+var client = JPush.buildClient('52da0b984250c4css465c8a5983', 'ab154afc579faef4e0cfsdf6c3c4',5);
 
 var bodyParser = require('body-parser');
 var multipart = require('connect-multiparty');
