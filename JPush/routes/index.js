@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var JPush = require("../node_modules/jpush-sdk/lib/JPush/JPush.js");
-var client = JPush.buildClient('52da0b984250c4c465c85983', 'ab154afc579faef4e0c6c3c4');
+var client = JPush.buildClient('5df2da0b9842sfds50c4c4sff65c85983', 'ab154afc579faefsfgf4e0c6c3c4');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
